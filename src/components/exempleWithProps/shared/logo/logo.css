@@ -1,0 +1,19 @@
+.logo-main{
+    font-size: 2.5rem;
+    color: #f7f7f7;
+    padding: 16px;
+}
+
+.logo-main span{
+    background-image: linear-gradient(40deg, #ffad15, #13cfe7);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 0.20rem;
+    text-decoration: underline 4px solid;
+    text-underline-offset: 4px;
+    transition: 0.2s linear;
+}
+
+.logo-main:hover span{
+    letter-spacing: 3px;
+}

@@ -1,0 +1,32 @@
+a{
+    text-decoration: none;
+}
+
+.error{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.error p{
+    margin-top: 16px;
+}
+
+.error .btn-link{
+    margin-top: 16px;
+    border-radius: 0.125rem;
+    padding: 0.5rem 1rem;
+    font-size: 18px;
+    background-color: #5b5b68;
+    color: #f7f7f7;
+    font-weight: 700;
+    transition: 0.2s linear;
+}
+
+.error .btn-link:hover{
+    background-color: #1e1e29;
+    transform: scale(1.05);
+}
